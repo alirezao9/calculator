@@ -10,7 +10,6 @@ while True:
                 a=int(input('please enter again:'))
         else:
             print('ok')
-            print(f'{a}x+{b}=0')
         b=int(input('please enter b:'))
         x=-b/a
         if (x>=0 or x<=0) and -b%a==0:
@@ -27,6 +26,7 @@ while True:
             print('ok your answer is : ',round(x,2))
         elif e=='no':
             print('ok')
+            print(x)
     elif admin_choice=='b':
         a=int(input('please enter a: '))
         while a==0:
